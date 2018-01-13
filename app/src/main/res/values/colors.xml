@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red_darker">#D60E0E</color>
+    <color name="red_lighter">#FBB5B5</color>
+    <color name="circle_color_dark">#FF0C00</color>
+    <color name="circle_color_light">#FC7973</color>
+
+    <color name="accent">#237bfb</color>
+
+    <color name="light_grey">#d6d6df</color>
+    <color name="grey">#878787</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#78d400</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey_translucent">#884C4C4C</color>
+    <color name="grey_translucent">#88878787</color>
+    <color name="color_gradient_contact_pic">#787874</color>
+    <color name="shadow">#885D5F5C</color>
+    <color name="chat_msg_sent">#B0F944</color>
+    <color name="chat_msg_sent_dark">#9DDD3E</color>
+    <color name="chat_msg_received">#79FBE6</color>
+    <color name="chat_msg_received_dark">#6CDDCB</color>
+    <color name="border">#A4A8A3</color>
+    <color name="light_green">#13FF00</color>
+    <color name="dark_green">#13E901</color>
+    <color name="darker_green">#10D100</color>
+    <color name="yellow">#FFEC00</color>
+    <color name="dark_yellow">#EBDA01</color>
+    <color name="blue_glow">#3E9DFB</color>
+    <color name="blue">#0058FD</color>
+    <color name="contact_letter">#0058FD</color>
+    <color name="transparent">#00000000</color>
+    <color name="selected_item_bg">#AAC3C3C3</color>
+
+</resources>

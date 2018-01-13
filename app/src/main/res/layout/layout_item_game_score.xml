@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Score : 50"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_movement_diff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:text="Movement Difficulty : 20"
+        android:layout_below="@id/tv_score"
+        />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:text="Speed Bonus : 20"
+        android:layout_below="@id/tv_movement_diff"
+        />
+
+    <TextView
+        android:id="@+id/tv_time_taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:text="Time Taken : 20"
+        android:layout_below="@id/tv_speed"
+        />
+
+    <TextView
+        android:id="@+id/tv_attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:text="Catch Attempts : 2"
+        android:layout_below="@id/tv_time_taken"
+        />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginBottom="@dimen/view_margin_large"
+        android:text="Game finish time : "
+        android:layout_below="@id/tv_attempts"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey"
+        android:layout_below="@id/tv_time"
+        android:layout_marginBottom="@dimen/view_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outliers.android.flingme.activities.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_more"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/heading_text_size"
+            android:layout_margin="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_count_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_grey_translucent"
+            android:visibility="gone"
+            android:focusableInTouchMode="false"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/extra_large"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
